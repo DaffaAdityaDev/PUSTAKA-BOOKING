@@ -132,7 +132,7 @@ class Member extends CI_Controller
                 $this->load->library('upload', $config);
                 if ($this->upload->do_upload('image')) 
                 {
-                    $gambar_lama = $data['user']['image'];
+                    $gambar_lama = $data['image'];
                 if ($gambar_lama != 'default.jpg') 
                 {
                     unlink(FCPATH . 'assets/img/profile/' . $gambar_lama);
