@@ -43,11 +43,9 @@
 
                         <?php } else { ?>
 
-                        <a class="nav-item nav-link" data-toggle="modal" data-
-                        target="#daftarModal" href="#"><i class="fas fw fa-login"></i> Daftar</a>
+                        <a class="nav-item nav-link" data-toggle="modal" data-target="#daftarModal" href="#"><i class="fas fw fa-login"></i> Daftar</a>
 
-                        <a class="nav-item nav-link" data-toggle="modal" data-
-                        target="#loginModal" href="#"><i class="fas fw fa-login"></i> Log in</a>
+                        <a class="nav-item nav-link" data-toggle="modal" data-target="#loginModal" href="#"><i class="fas fw fa-login"></i> Log in</a>
 
                         <?php } ?>
 
