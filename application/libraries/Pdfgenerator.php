@@ -30,6 +30,6 @@ class Pdfgenerator {
 		$CI =& get_instance();
 		$CI->dompdf = $pdf;
 		
-	}
+	} 
 	
 }
